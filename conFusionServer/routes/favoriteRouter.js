@@ -5,7 +5,7 @@ var authenticate = require('../authenticate');
 const cors = require('./cors');
 
 
-const Favorites = require('../models/favourite');
+const Favorites = require('../models/favorite');
 
 const favoriteRouter = express.Router();
 
